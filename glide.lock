@@ -1,0 +1,30 @@
+hash: 08fe456a7723934ff026230d10905f6411460a61cc473ba32de38c80ee764453
+updated: 2017-01-04T02:37:23.767949215-05:00
+imports:
+- name: bitbucket.org/liamstask/goose
+  version: 8488cc47d90c8a502b1c41a462a6d9cc8ee0a895
+- name: github.com/gotsunami/go-cloudinary
+  version: 1216300b6d57f89bfa40f47236e9f661f71a84f2
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+- name: github.com/lib/pq
+  version: 5bf161122cd640c2a5a2c1d7fa49ea9befff31dd
+  subpackages:
+  - hstore
+- name: github.com/serenize/snaker
+  version: 543781d2b79bd95c51ffe70e70a55c946ca211ff
+- name: golang.org/x/crypto
+  version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
+  subpackages:
+  - bcrypt
+- name: gopkg.in/gin-contrib/cors.v1
+  version: fb918bcd825b9e20f0c3c365981baf9454029b6c
+- name: gopkg.in/gin-gonic/gin.v1
+  version: e2212d40c62a98b388a5eb48ecbdcf88534688ba
+- name: gopkg.in/go-playground/validator.v9
+  version: 077c3830f3971d4a44a94c2249b67ce8c53198fc
+- name: gopkg.in/guregu/null.v3
+  version: 41961cea0328defc5f95c1c473f89ebf0d1813f6
+- name: gopkg.in/jinzhu/gorm.v1
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+testImports: []

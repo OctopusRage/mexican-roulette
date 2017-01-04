@@ -1,0 +1,24 @@
+package: github.com/octopusRage/mexican-roulette
+import:
+- package: github.com/serenize/snaker
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
+- package: gopkg.in/gin-contrib/cors.v1
+  version: ^1.1.0
+- package: gopkg.in/gin-gonic/gin.v1
+  version: ^1.1.4
+- package: gopkg.in/go-playground/validator.v9
+  version: ^9.3.2
+- package: gopkg.in/guregu/null.v3
+  version: ^3.1.0
+- package: github.com/gotsunami/go-cloudinary
+- package: gopkg.in/jinzhu/gorm.v1
+  version: ^1.0.0
+- package: github.com/jinzhu/inflection
+- package: github.com/lib/pq
+  subpackages:
+  - hstore
+- package: bitbucket.org/liamstask/goose
+- package: github.com/mattn/go-sqlite3
+  version: ~1.2.0
